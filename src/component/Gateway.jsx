@@ -5,11 +5,7 @@ let Geteway=()=>{
     const [error,setError] = useState();
     const navigate = useNavigate();
     const inputHandle=(e)=>{
-        if(e.target.name === 'cardNumber') {
-            
-        }
         setInput({...input,[e.target.name]:e.target.value});
-        
     }
     const submitHande=(e)=>{
         e.preventDefault();
