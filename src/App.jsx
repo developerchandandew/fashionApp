@@ -18,7 +18,7 @@ function App() {
           <Route exact path='/Product' Component={Product}></Route>
           <Route exact path='/receive' Component={Received}></Route>
           <Route exact path='/process' Component={Processing}></Route>
-          <Route exact path='/geteway' Component={Geteway}></Route>      
+          <Route exact path='/gateway' Component={Geteway}></Route>      
     </Routes>
       <NavBar/>
     </div>
